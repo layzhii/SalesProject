@@ -16,8 +16,8 @@ namespace SalesProject
         List<Store> storeList;
         List<Product> productList;
 
-        string queryDGV1 = "exec Proc_InfoSalaryAVG @storeCodeList, @productCodeList, @date1, @date2";
-        string queryDGV2 = "exec Proc_InfoProductSalaryAVG @storeCodeList, @productCodeList, @date1, @date2";
+        string queryDGV1 = "exec Proc_InfoSalesAVG @storeCodeList, @productCodeList, @date1, @date2";
+        string queryDGV2 = "exec Proc_InfoProductSalesAVG @storeCodeList, @productCodeList, @date1, @date2";
 
         public MainForm()
         {
